@@ -73,3 +73,9 @@ button {
   padding: 0.5em 1em;
   font-size: 1.5rem;
 }
+
+#errorMsg {
+  color: red;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
