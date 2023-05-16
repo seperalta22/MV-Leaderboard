@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  font-size: 3rem;
+  width: 90%;
+  margin: 8rem auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: 2rem auto;
+  gap: 8rem;
+}
+
+.title {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  border: 3px #272727 solid;
+}
+
+.scores li:nth-child(odd) {
+  background-color: rgba(213, 213, 213, 0.536);
+}
+
+.score {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 80%;
+}
+
+form input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 2px #272727 solid;
+  margin-bottom: 1rem;
+}
+
+button {
+  border: 2px #272727 solid;
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.75);
+  padding: 0.5em 1em;
+  font-size: 1.5rem;
+}
