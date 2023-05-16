@@ -8,11 +8,11 @@ const submit = document.getElementById('submit');
 const refresh = document.getElementById('refresh');
 
 submit.addEventListener('click', (e) => {
-	e.preventDefault();
-	addRecord(user.value, score.value);
+  e.preventDefault();
+  addRecord(user.value, score.value);
 });
 
-refresh.addEventListener('click', (e) => {
-	showRecords();
-	refresh.innerHTML = 'Refresh';
+refresh.addEventListener('click', () => {
+  showRecords();
+  refresh.innerHTML = 'Refresh';
 });
