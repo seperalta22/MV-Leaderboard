@@ -135,7 +135,7 @@ Example command:
 
 ### Deployment
 
-> Comming Soon...
+> [Leaderboard](https://sergioperalta22.github.io/MV-Leaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
